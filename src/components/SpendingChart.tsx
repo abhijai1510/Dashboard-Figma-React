@@ -1,7 +1,7 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 import './SpendingChart.css'
 
-interface Category {
+interface SpendingCategory {  // Changed from Category
   name: string
   amount: number
   percentage: number
@@ -9,7 +9,7 @@ interface Category {
 }
 
 interface SpendingChartProps {
-  categories: Category[]
+  categories: SpendingCategory[]  // This will now match the type being passed
 }
 
 export const SpendingChart = ({ categories }: SpendingChartProps) => {

@@ -17,7 +17,6 @@ const ExpenseDashboard = () => {
           <ExpenseList expenseGroups={expenseData} />
         </div>
         <div className="chart-section">
-          <SpendingChart categories={spendingCategories} />
         </div>
       </div>
     </div>
