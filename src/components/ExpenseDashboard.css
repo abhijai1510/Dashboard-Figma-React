@@ -1,0 +1,48 @@
+.dashboard {
+  padding: 1.25rem;
+  background-color: #f7fafc;
+  border-radius: 30px;
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    flex-direction: column;
+  }
+}
+
+.main-section {
+  flex: 1;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0;
+}
+
+.date-range {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.chart-section {
+  width: 41%;
+}
+
+@media (max-width: 768px) {
+  .chart-section {
+    width: 100%;
+  }
+}
